@@ -21,7 +21,7 @@ MIKAMUTZKI — FINAL PORTFOLIO
 
 This project rebuilds mikamutzki.com as a complete senior-level portfolio system for Mika Kamutzki, Art Director, Creative Director, AI Content Engineer, and Senior UX/UI Designer in Berlin.
 
-The portfolio must make Mika’s work visible, credible, and sendable for professional applications. It should not rely only on certificates, employment references, or written credentials. The portfolio must show real work, selected visual evidence, case-study thinking, and a clear professional position.
+The portfolio must make Mika's work visible, credible, and sendable for professional applications. It should not rely only on certificates, employment references, or written credentials. The portfolio must show real work, selected visual evidence, case-study thinking, and a clear professional position.
 
 ---
 
@@ -35,7 +35,7 @@ The primary goal is to create a sendable, senior-level portfolio that enables ap
 - Design Lead / Senior Design roles
 - AI-assisted creative and digital design workflows
 
-The portfolio should communicate Mika’s combination of:
+The portfolio should communicate Mika's combination of:
 
 - UX/UI craft and product thinking
 - Art Direction and visual judgment
@@ -84,7 +84,7 @@ Phase 1 must include:
 - Impressum
 - Datenschutz
 
-These pages together must present Mika’s positioning, selected work, two key case studies, curated visual proof, a clear contact route, and functional legal pages.
+These pages together must present Mika's positioning, selected work, two key case studies, curated visual proof, a clear contact route, and functional legal pages.
 
 ---
 
@@ -99,30 +99,6 @@ It must be strong enough to send with applications.
 It must show visible work, not only claims.
 
 It must make a senior reviewer understand within seconds that Mika combines UX/UI, Art Direction, visual judgment, and AI-assisted workflow maturity.
-
----
-
-## Phase 1 Definition of Done
-
-Phase 1 is considered sendable only when Mika confirms it.
-
-Minimum candidate criteria:
-
-- A live URL exists.
-- Home is reachable and clearly positions Mika.
-- Work / Gallery is reachable and shows curated visual work.
-- Floom case is reachable and shows UX/UI evidence.
-- CUPRA case is reachable and shows confirmed Art Direction / AI-assisted work evidence.
-- Contact route works.
-- Impressum and Datenschutz are reachable.
-- Desktop and mobile have been checked.
-- No obvious fake claims remain.
-- No broken layouts remain.
-- No unreadable text remains.
-- No obvious generic template, SaaS, or AI-slop aesthetic remains.
-- No known critical design-system violation remains.
-
-If one of these criteria is missing, Phase 1 is not ready to be treated as sendable.
 
 ---
 
@@ -311,7 +287,7 @@ Later phases should improve the portfolio without weakening the core senior posi
 
 ## Operating principle
 
-The portfolio exists to make Mika’s work visible and usable for real applications.
+The portfolio exists to make Mika's work visible and usable for real applications.
 
 The project should remain ambitious but practical.
 
