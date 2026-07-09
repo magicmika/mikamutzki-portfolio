@@ -40,7 +40,7 @@ The goal is to avoid pretending that the project already has confirmed foundatio
 - Website platform.
 - Production workflow.
 - Case structures.
-- Floom content.
+- Floom final case copy, final screen selection, and final process-evidence export (evidence base exists in 07_CASE_FLOOM.md, but final case page is not yet written).
 - CUPRA content.
 - Gallery content.
 - Available assets.

@@ -50,9 +50,9 @@ of content and assets.
 | TBD | Home | Visuals | `missing` | — | no | Needs to be sourced or generated |
 | TBD | Work / Gallery | Copy | `missing` | — | no | Needs to be written |
 | TBD | Work / Gallery | Images | `missing` | — | no | Needs curation |
-| TBD | Floom | Case copy | `missing` | — | no | Needs to be written |
-| TBD | Floom | Screens | `missing` | — | no | Needs asset collection |
-| TBD | Floom | Process evidence | `missing` | — | no | Needs asset collection |
+| Floom case copy | Floom | Case copy | `needs review` | 07_CASE_FLOOM.md | no | Evidence and safe wording drafted; final website copy not yet written |
+| Floom screens | Floom | Screens | `needs review` | 07_CASE_FLOOM.md (Figma prototype link) | no | Prototype exists (13+ screens); final 6–10 Phase 1 screens not yet selected |
+| Floom process evidence | Floom | Process evidence | `needs review` | 07_CASE_FLOOM.md (FigJam board link) | no | Research/testing evidence documented; final 3–5 snapshots not yet exported |
 | TBD | CUPRA | Case copy | `missing` | — | no | Needs to be written |
 | TBD | CUPRA | Visuals | `missing` | — | no | Needs asset collection |
 | TBD | Contact | Copy | `missing` | — | no | Needs to be written |

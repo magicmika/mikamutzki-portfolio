@@ -52,7 +52,7 @@ or assumptions from becoming project truth by accident.
 | 04_PHASE1_DOD.md | current | Truth | Phase 1 done criteria | What "sendable" means for Phase 1, required pages, launch blockers, post-launch distinction | Design tokens, content inventory, case narrative, tool workflow | Confirmed clean-source file |
 | 05_QA_METHOD.md | draft | Method | Phase 1 launch-gate QA method | QA checks for sendability, claim risk, content completeness, critical design integrity, responsive review, post-launch list | Design tokens, content, case details, legal correctness, full design-system audit | Created as draft clean-source file |
 | 06_CONTENT_INVENTORY.md | draft | Evidence | Content and asset register | Known, missing, potential, and Phase-1-usable content/assets | Design tokens, QA criteria, case narratives, design decisions | Created as draft clean-source file |
-| 07_CASE_FLOOM.md | pending | Evidence | Floom case source | TBD | TBD | Not created yet |
+| 07_CASE_FLOOM.md | draft | Evidence | Floom case source | Confirmed facts, role wording, research/testing evidence, prototype evidence, AI-claim wording, unsafe claims to avoid | Final case-page copy, final screen/process-evidence selection, design decisions | Created as draft evidence source; pending Mika approval to become current |
 | 08_CASE_CUPRA.md | pending | Evidence | CUPRA case source | TBD | TBD | Not created yet |
 | 09_GALLERY_INVENTORY.md | pending | Evidence | Gallery source | TBD | TBD | Not created yet |
 | 10_AI_WORKFLOW_METHOD.md | pending | Method | AI workflow and prompting method | TBD | TBD | Not created yet |
