@@ -44,7 +44,7 @@ The goal is to avoid pretending that the project already has confirmed foundatio
 - CUPRA content.
 - Gallery content.
 - Available assets.
-- Final Phase 1 Definition of Done.
+- Final Phase 1 implementation and QA result.
 - QA method for the clean project.
 
 ## Temporary hard guardrails
