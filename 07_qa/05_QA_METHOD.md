@@ -82,7 +82,7 @@ Critical violations only. This is not a full component audit.
 |---|---|
 | No known critical radius violation | Radius follows the confirmed design direction; no accidental soft SaaS rounding, pill buttons, circular icon buttons, or rounded cards |
 | No unapproved #FFFFFF usage | Pure white does not appear in backgrounds, text, strokes, surfaces, or UI elements unless explicitly approved |
-| No Geist Mono in use | Typography follows the confirmed design direction |
+| Only Switzer is in use | No other typeface appears anywhere on the site |
 | No generic SaaS / startup-template aesthetic | Visual language is clearly Mika's own |
 | No obvious AI-slop or template defaults | No shadcn, Material UI, or neobrutalist defaults visible |
 | Typography is consistent across all pages | One type system, no mixups |
@@ -128,3 +128,5 @@ Items that do not block launch but must be addressed after Phase 1 goes live.
 |---|---|
 | 2026-07-09 | v1.0 — Created as lean Phase 1 launch-gate QA method |
 | 2026-07-09 | v1.1 — Four corrections applied: legal wording, claim language, radius rule, #FFFFFF scope |
+| 2026-07-10 | v1.2 — Typography rule generalised to positive-list format (Switzer only), removed reference to unrelated typefaces |
+
