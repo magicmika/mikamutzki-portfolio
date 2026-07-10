@@ -87,6 +87,8 @@ Critical violations only. This is not a full component audit.
 | No obvious AI-slop or template defaults | No shadcn, Material UI, or neobrutalist defaults visible |
 | Typography is consistent across all pages | One type system, no mixups |
 | Spacing and layout are consistent | No broken grids or orphaned elements |
+| Only confirmed typefaces are in use | Currently Switzer only; no unconfirmed or unapproved typeface appears anywhere on the site |
+
 
 ---
 
