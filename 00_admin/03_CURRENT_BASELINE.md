@@ -26,7 +26,7 @@ The goal is to avoid pretending that the project already has confirmed foundatio
 - The existing Figma file `wr7dHBcQcp32CGRDc9deVp` is historical working context and is not the active design authority.
 - Existing Figma tokens, components, layouts, page structures, and production decisions must not be inherited automatically into the clean restart.
 - Individual assets or decisions from the existing Figma file may be reviewed only for a concrete task and require Mika's explicit approval before reuse.
-- Typography: Switzer (only typeface in use).
+- Typography: Switzer (currently the only typeface in use; a second typeface may be added later as a deliberate, separate decision).
 
 ## Not confirmed yet
 
