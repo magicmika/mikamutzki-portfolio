@@ -26,12 +26,12 @@ The goal is to avoid pretending that the project already has confirmed foundatio
 - The existing Figma file `wr7dHBcQcp32CGRDc9deVp` is historical working context and is not the active design authority.
 - Existing Figma tokens, components, layouts, page structures, and production decisions must not be inherited automatically into the clean restart.
 - Individual assets or decisions from the existing Figma file may be reviewed only for a concrete task and require Mika's explicit approval before reuse.
+- Typography: Switzer (only typeface in use).
 
 ## Not confirmed yet
 
 - Design values.
 - New clean design-system baseline and future Figma authority.
-- Typography.
 - Colors.
 - Radius.
 - Grid.
@@ -81,3 +81,4 @@ Do not turn assumptions into current project truth.
 |---|---|
 | 2026-07-09 | Created minimal clean baseline v1.0 |
 | 2026-07-10 | v1.1 — Existing Figma file classified as historical context; clean-restart and explicit-reuse rules added |
+| 2026-07-10 | v1.2 — Typography confirmed as Switzer (sole typeface) |
