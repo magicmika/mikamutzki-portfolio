@@ -82,7 +82,6 @@ Critical violations only. This is not a full component audit.
 |---|---|
 | No known critical radius violation | Radius follows the confirmed design direction; no accidental soft SaaS rounding, pill buttons, circular icon buttons, or rounded cards |
 | No unapproved #FFFFFF usage | Pure white does not appear in backgrounds, text, strokes, surfaces, or UI elements unless explicitly approved |
-| Only Switzer is in use | No other typeface appears anywhere on the site |
 | No generic SaaS / startup-template aesthetic | Visual language is clearly Mika's own |
 | No obvious AI-slop or template defaults | No shadcn, Material UI, or neobrutalist defaults visible |
 | Typography is consistent across all pages | One type system, no mixups |
