@@ -41,7 +41,7 @@ The goal is to avoid pretending that the project already has confirmed foundatio
 - Production workflow.
 - Case structures.
 - Floom final case copy, final screen selection, and final process-evidence export (evidence base exists in 07_CASE_FLOOM.md, but final case page is not yet written).
-- CUPRA content.
+- CUPRA final case copy, final visual selection, asset permissions, and final proof review (draft evidence base exists in 08_CASE_CUPRA.md, but final case page is not yet written).
 - Gallery content.
 - Available assets.
 - Final Phase 1 implementation and QA result.
