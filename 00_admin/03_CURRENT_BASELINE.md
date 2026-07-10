@@ -46,6 +46,8 @@ The goal is to avoid pretending that the project already has confirmed foundatio
 - Available assets.
 - Final Phase 1 implementation and QA result.
 - QA method for the clean project.
+- Final Gallery concept, asset selection, captions and public-use clearance (draft placeholder exists in 09_GALLERY_INVENTORY.md).
+- Final AI workflow approval and Phase 1 tool roles (draft method exists in 10_AI_WORKFLOW_METHOD.md).
 
 ## Temporary hard guardrails
 
