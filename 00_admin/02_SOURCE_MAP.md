@@ -1,6 +1,6 @@
 # 02_SOURCE_MAP
 
-Version: 1.1
+Version: 1.2
 Status: current clean-source file
 Project: MIKAMUTZKI — FINAL PORTFOLIO
 
@@ -56,6 +56,7 @@ or assumptions from becoming project truth by accident.
 | 08_CASE_CUPRA.md | draft | Evidence | CUPRA case source | Document-backed/audit-backed CUPRA facts, evidence levels, role boundaries, AI-claim wording, unsafe claims to avoid, asset and permission risks | Final case-page copy, final visual selection, design decisions, public-use permission decisions | Created as draft evidence source; pending Mika approval to become current |
 | 09_GALLERY_INVENTORY.md | draft | Evidence | Gallery inventory placeholder | Potential candidates, current review status, asset-label framework, rights and permission risks, open Gallery tasks | Final Gallery concept, selected assets, public-use clearance, project narratives | Created as draft placeholder; pending asset review and Mika approval |
 | 10_AI_WORKFLOW_METHOD.md | draft | Method | AI workflow and prompting method | Draft rules for source governance, prompting, research, AI-assisted production, implementation support, QA and documentation | Project truth, design-system decisions, final tool stack, case claims, legal content, final publication decisions | Created as draft method source; pending Mika approval |
+| Existing Figma file `wr7dHBcQcp32CGRDc9deVp` | historical – not in use | Archive | Previous design and component context | May be inspected only for a specific asset or decision after Mika explicitly requests the review | Current design authority, design tokens, component status, page structure, production sequence, implementation truth | Not a basis for the clean restart; no automatic reuse or inheritance |
 | Old chats, old screenshots, old uploads, old exports, old prompts | historical – not in use | Archive | Historical context only | Nothing | Project direction, design truth, case facts, claims, QA rules, current decisions | Do not use unless Mika explicitly reclassifies a specific item |
 
 ---
@@ -70,6 +71,7 @@ or assumptions from becoming project truth by accident.
 6. If two current sources conflict, stop and flag the conflict.
 7. If a needed source does not exist yet, ask Mika or mark the item as missing.
 8. Do not reconstruct missing facts from memory, old chats, or assumptions.
+9. Access to the existing Figma file does not make it current. Any reuse requires a concrete need, direct review, and Mika's explicit approval.
 
 ---
 
@@ -79,3 +81,4 @@ or assumptions from becoming project truth by accident.
 |---|---|
 | 2026-07-09 | v1.0 — Created clean source map |
 | 2026-07-09 | v1.1 — Status updated for 03, 04 (current), 05, 06 (draft); roles and boundaries filled in; "legal advice" corrected to "legal correctness" |
+| 2026-07-10 | v1.2 — Existing Figma file classified as `historical – not in use`; clean restart and explicit-review rule added |

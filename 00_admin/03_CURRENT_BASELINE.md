@@ -1,6 +1,6 @@
 # 03_CURRENT_BASELINE
 
-Version: 1.0  
+Version: 1.1  
 Status: current clean-source file  
 Project: MIKAMUTZKI — FINAL PORTFOLIO
 
@@ -23,11 +23,14 @@ The goal is to avoid pretending that the project already has confirmed foundatio
 - The project must move toward a sendable MVP quickly.
 - Old chats, old uploads, old screenshots, old exports, old prompts, and prior summaries are not current truth.
 - Missing information must be marked as missing instead of reconstructed from memory.
+- The existing Figma file `wr7dHBcQcp32CGRDc9deVp` is historical working context and is not the active design authority.
+- Existing Figma tokens, components, layouts, page structures, and production decisions must not be inherited automatically into the clean restart.
+- Individual assets or decisions from the existing Figma file may be reviewed only for a concrete task and require Mika's explicit approval before reuse.
 
 ## Not confirmed yet
 
 - Design values.
-- Figma Foundation usage.
+- New clean design-system baseline and future Figma authority.
 - Typography.
 - Colors.
 - Radius.
@@ -77,3 +80,4 @@ Do not turn assumptions into current project truth.
 | Date | Change |
 |---|---|
 | 2026-07-09 | Created minimal clean baseline v1.0 |
+| 2026-07-10 | v1.1 — Existing Figma file classified as historical context; clean-restart and explicit-reuse rules added |
