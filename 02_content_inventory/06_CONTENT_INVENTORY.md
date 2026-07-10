@@ -62,6 +62,7 @@ of content and assets.
 | TBD | Datenschutz | Legal text | `missing` | — | no | Needs current legal content |
 | TBD | Credentials | Arbeitszeugnisse | `missing` | — | no | Needs confirmation which are current and usable |
 | TBD | Design system | Figma Foundation link | `missing` | — | no | Needs confirmed current file reference |
+| Gallery candidate inventory | Work / Gallery | Evidence | `needs review` | 09_GALLERY_INVENTORY.md | no | Candidate projects are listed, but no assets have been reviewed, selected or cleared for public use |
 
 ---
 
