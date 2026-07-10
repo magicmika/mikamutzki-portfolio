@@ -1,172 +1,580 @@
 # 10_AI_WORKFLOW_METHOD
 
-Stand: 10. Juli 2026  
-Status: Arbeitsversion für Phase 1
+Version: 0.2  
+Status: draft method source  
+Project: MIKAMUTZKI — FINAL PORTFOLIO  
+Area: AI workflow / prompting / production method  
+Category: Method
 
-## Zweck
+---
 
-Dieses Dokument beschreibt die operative AI-Workflow-Methode für das Portfolio-Projekt. Es legt keine neuen Produktversprechen, keine finalen Tool-Claims und keine neue Design-Authority fest. Es definiert, wie AI im Projekt **gezielt**, begrenzt, überprüfbar und ohne AI-Slop eingesetzt wird.[cite:15][cite:19]
+## Purpose
 
-Die Methode basiert auf drei Ebenen: erstens klarer Source Governance, zweitens kontrollierter Tool-Rollen, drittens wiederholbaren Qualitäts- und Entscheidungsregeln. Die Datei ist bewusst praxisnah formuliert, damit sie im Alltag nutzbar bleibt und nicht nur strategisch gut klingt.[cite:15][cite:19]
+This file defines the draft AI workflow method for Phase 1 of the MIKAMUTZKI — FINAL PORTFOLIO project.
 
-## Geltungsbereich
+It describes how AI may be used for research, structure, copy, visual exploration, asset production, implementation support, QA and documentation without turning AI output into project truth.
 
-Diese Methode gilt für Recherche, Struktur, Copy, visuelle Exploration, Asset-Produktion, Vibe-Coding, QA und Dokumentation im Projekt MIKAMUTZKI — FINAL PORTFOLIO. Figma bleibt Design Authority; aktuelle Projektdateien bleiben Source of Truth; Mika bleibt die letzte inhaltliche und gestalterische Entscheidungsinstanz.[cite:15][cite:19]
+This file is a method source. It is not project truth, not a design-system specification, not a case source, not a final tool workflow and not a public AI Practice page.
 
-Das Dokument entscheidet nicht über finale Website-Architektur, finale Tokens, finale öffentliche Claims oder einen endgültig festgelegten Build-Stack. Solche Entscheidungen werden nur auf Basis bestätigter Projektquellen, realer Tests und expliziter Freigaben getroffen.[cite:19]
+The goal is to make AI use precise, limited, reviewable and useful while protecting Mika's visual judgment, real work, claim control and senior portfolio credibility.
 
-## Arbeitsprinzipien
+This file needs Mika's approval before it can become a current method source.
 
-### 1. System First
+---
 
-Kein Screen, Asset, Textblock oder Build-Schritt startet ohne klaren Rahmen. Dazu gehören Ziel, Quelle, Scope, Ausschlüsse, Qualitätskriterien und die zuständige Entscheidungsinstanz.[cite:19]
+## Method-only reference material
 
-AI wird nicht verwendet, um Unklarheit zu kaschieren. Wenn Struktur, Hierarchie oder Beleglage unklar sind, wird zuerst die Grundlage geklärt und erst danach erzeugt.[cite:19]
+The following material may inform this method as training or workflow context only:
 
-### 2. One authority per decision
+- Claude course resource PDF: general prompting, iterative prompting, file handling, examples, formatting, artifacts, skills and agent-style workflows.
+- Course prompt PDF: practical prompt patterns for documents, presentations, skills, dashboards, prototypes, browser automation and iterative refinement.
 
-Für jede Entscheidung gibt es genau eine Autorität. Figma entscheidet Gestaltung, bestätigte Quellen entscheiden Fakten, Mika entscheidet Freigabe und Veröffentlichung.[cite:19]
+These PDFs do not decide project truth, final tool capabilities, final production workflow, design-system values, case claims or public portfolio wording.
 
-Mehrere Tools dürfen Input liefern, aber kein Tool darf durch Wiederholung oder Selbstsicherheit eine unbestätigte Behauptung aufwerten. Drei ähnliche Outputs sind noch keine Wahrheit.[cite:19]
+They are useful for method patterns, not as authority for Mika's portfolio content.
 
-### 3. Generate narrowly, review broadly
+---
 
-Erzeugung bleibt eng begrenzt. Prüfung bleibt breit. Das reduziert Modell-Drift, unnötige Varianten und versteckte Nebenwirkungen.[cite:19]
+## Scope
 
-Statt offene Mega-Prompts zu schreiben, werden Aufgaben in kleine, prüfbare Schritte zerlegt: Struktur, Richtung, Variante, Auswahl, Härtung, QA. Das passt auch zu den dokumentierten Modell- und Tool-Grenzen in visuellen und generativen Workflows.[cite:15][cite:17][cite:19]
+This method may support:
 
-### 4. Preserve what works
+- source structuring
+- evidence extraction
+- claim-control checks
+- deep research planning and synthesis
+- case-page drafting
+- website copy options
+- prompt writing
+- Figma or builder handoff prompts
+- visual-direction prompts
+- image-generation briefs
+- remastering or reconstruction workflows
+- QA checklists
+- issue triage
+- implementation handoff
+- documentation discipline
 
-Jede Änderung schützt bestätigte Inhalte, funktionierende Gestaltung und bereits geprüfte Komponenten. Korrektur bedeutet nicht automatischen Neuaufbau.[cite:19]
+This method must not decide:
 
-Wenn ein Output bereits tragfähig ist, wird verfeinert statt neu erfunden. Diese Regel schützt das Projekt vor Builder-Drift, unnötigem Stilwechsel und AI-Slop.[cite:15][cite:19]
+- final website architecture
+- final design tokens
+- final typography
+- final colours
+- final radius, grid or spacing
+- final component rules
+- final public case claims
+- final public-use permissions
+- legal text
+- client or brand approval
+- final build stack
+- whether Phase 1 is done
 
-### 5. Stop after two failed correction loops
+---
 
-Wenn zwei enge Korrekturschleifen kein sauberes Ergebnis liefern, wird nicht weiter im selben Muster gepromptet. Dann wird die Fehlerklasse bestimmt: Source, Strategy, Art Direction, Prompt, Tool, Implementation, QA oder Scope.[cite:19]
+## Decision authority
 
-Danach wird Task, Prompt oder Tool gewechselt – oder manuell gelöst. Diese Regel ist wichtig, weil viele schlechte AI-Schleifen nicht am Talent des Nutzers scheitern, sondern an falscher Werkzeugwahl oder zu großem Scope.[cite:19]
+For each decision, one authority wins.
 
-## Workflow-Reihenfolge
+| Decision type | Authority |
+|---|---|
+| Project scope, audience, Phase 1 priority | Current clean-source truth files |
+| Source status and hierarchy | `02_SOURCE_MAP.md` |
+| Phase 1 sendability | `04_PHASE1_DOD.md` |
+| Launch-gate QA method | `05_QA_METHOD.md` while still draft, pending Mika approval |
+| Content and asset status | `06_CONTENT_INVENTORY.md` and case evidence files |
+| Floom facts and claim boundaries | `07_CASE_FLOOM.md` while draft, pending Mika approval |
+| CUPRA facts and claim boundaries | `08_CASE_CUPRA.md` while draft, pending Mika approval |
+| Visual design decisions | Current Figma Foundation and confirmed design-system files once approved |
+| Final publication decision | Mika |
 
-### 1. Source Governance
+AI tools may support decisions, but they do not become the authority through confidence, repetition or polished language.
 
-Vor jeder Arbeit wird geprüft: Was ist aktuelle Wahrheit, was ist Kontext, was ist Hypothese? Aktuelle Projektdateien und bestätigte Entscheidungen haben Vorrang vor alten Chats, alten Uploads oder Modellzusammenfassungen.[cite:19]
+Three similar AI outputs are not proof.
 
-Alles, was öffentlich behauptet werden könnte, braucht eine bestätigte Quelle. Unklare Punkte werden markiert, nicht geglättet.[cite:19]
+---
 
-### 2. Research und Synthese
+## Operating principles
 
-Für Deep Research dürfen mehrere Modelle als Challenger eingesetzt werden. Die Recherche ist aber erst abgeschlossen, wenn Widersprüche sichtbar gemacht, Risiken benannt und Restunsicherheiten dokumentiert sind.[cite:19]
+### 1. System first
 
-Dafür gilt der Claim-Ledger-Grundsatz: nicht nur „was wurde empfohlen“, sondern auch „wie belastbar ist die Aussage, welche Quelle trägt sie, wie hoch ist die Konfidenz und was ist das Abbruchkriterium“.[cite:19]
+No screen, asset, text block, case module or build step starts without a clear frame.
 
-### 3. Strategie und Content Architecture
+Every meaningful task needs:
 
-ChatGPT und Claude sind in dieser Methode primär für Struktur, Argumentation, Storyline, Gegenprüfung und Copy-Kritik gedacht. Sie sind nicht die Quelle für finale öffentliche Claims, wenn diese nicht durch Projektmaterial gedeckt sind.[cite:19]
+- goal
+- source
+- scope
+- exclusions
+- quality criteria
+- owner of the final decision
 
-Texte entstehen aus Evidence Notes, klarer Absatzfunktion und einer Specificity-Prüfung. Jeder Satz muss konkret, belegbar und für das Projekt notwendig sein.[cite:19]
+AI must not be used to hide unclear structure, weak evidence or missing assets.
 
-### 4. Design Authority und visuelle Exploration
+### 2. Generate narrowly, review broadly
 
-Figma bleibt der Ort, an dem Gestaltung entschieden und gehärtet wird. Explorationstools dürfen Richtungen, Varianten und Kompositionsideen liefern, aber keine neue Wahrheit über das Designsystem erzeugen.[cite:19]
+Generation stays narrow. Review stays broad.
 
-Stitch, Claude Design oder ähnliche Tools sind deshalb Explorations- und Verfeinerungswerkzeuge, keine Ersatz-Autorität für Komponenten, Tokens oder finale UX-Entscheidungen.[cite:19]
+Tasks should be broken into small, inspectable steps:
 
-### 5. Asset-Produktion
+1. structure
+2. direction
+3. variant
+4. selection
+5. hardening
+6. QA
 
-Visuelle Assets werden als Pipeline gedacht, nicht als Einzeltreffer. Das heißt: Auswahl des richtigen Werkzeugs, kleines Set von Varianten, Vergleich im Kontaktbogen, Auswahl, Retusche, Export.[cite:15][cite:19]
+Large open prompts are allowed only for exploration. They must not directly become final project output.
 
-Kittl eignet sich für designnahe, redaktionelle und typografische Bildproduktion; Magnific eignet sich für dokumentierte Modellwahl, Bildgenerierung, Variation und Upscaling je nach Zielbild.[cite:15][cite:17][cite:18][cite:23]
+### 3. Preserve what works
 
-### 6. Vibe Coding und Implementation
+Every correction protects confirmed content, working layout, approved structure and already reviewed components.
 
-Code-Unterstützung ist in dieser Methode kontrolliert und slices-basiert. Es werden nur kleine, klar definierte Ausschnitte getestet, mit Preserve-Regeln, Akzeptanzkriterien und Diff-Prüfung.[cite:19]
+Correction does not mean full rebuild.
 
-AI-generierter Code darf nie stillschweigend Design- oder Content-Entscheidungen überschreiben. Semantisches HTML, klare Komponentenstruktur, definierte Breakpoints und Tastaturbedienung gehören zur Mindestprüfung.[cite:19]
+If an output is already strong, refine it instead of regenerating it from scratch.
 
-### 7. QA und Dokumentation
+### 4. Stop after two failed correction loops
 
-QA ist kein Nachgedanke. Visuelle Qualität, State Coverage, Responsiveness, Lesbarkeit, Claim Control und Disclosure gehören zum Abschluss jedes relevanten Arbeitsschritts.[cite:15][cite:19]
+After two narrow correction loops, do not continue prompting in the same pattern.
 
-Dokumentation ist Teil des Kompetenznachweises. Relevante Prompts, Entscheidungen, Fehlversuche, Diffs, Fixes und begrenzte Tool-Rollen werden kuratiert festgehalten.[cite:19]
+Identify the failure class:
 
-## Modellauswahl bei Bildtools
+- Source
+- Strategy
+- Art Direction
+- Prompt
+- Tool
+- Implementation
+- QA
+- Scope
 
-### Grundregel
+Then reduce scope, change the prompt, switch tool or solve manually.
 
-Nicht vom Modellnamen ausgehen, sondern vom Einsatzzweck. Die Auswahl beginnt immer mit drei Fragen: Brauche ich Typografie im Bild? Brauche ich Konsistenz über mehrere Assets? Brauche ich erst einmal nur eine schnelle Richtung?[cite:15][cite:17][cite:18][cite:19][cite:29][cite:30][cite:36]
+### 5. Evidence before polish
 
-Wenn diese drei Fragen nicht beantwortet sind, wird fast immer das falsche Modell gewählt. Das führt zu Credit-Verlust, unnötigen Iterationen und scheinbar „schlechtem“ AI-Output, obwohl das Problem oft nur eine falsche Modellklasse ist.[cite:15][cite:17][cite:19]
+Do not make weak evidence sound stronger through better writing.
 
-### Modellwahl-Heuristik
+A polished unsupported claim is still unsafe.
 
-| Bedarf | Empfohlene Richtung | Begründung |
+---
+
+## Source governance workflow
+
+Before any public-facing work, classify the input.
+
+| Source level | Meaning | Use |
 |---|---|---|
-| Erste Richtung, wenig Risiko, schneller Start | Auto / Fast / kleine Standardmodelle | Gut für frühe Exploration, spart Credits und verhindert Overkill.[cite:15][cite:17] |
-| Starke Typografie oder Text im Bild | Textstarke Modelle wie Ideogram 3 oder GPT Image 2 in Magnific; in Canva eher stil- und layoutorientiert arbeiten statt perfekte Text-Assets zu erwarten | Magnific nennt Ideogram 3 und GPT Image 2 explizit für präzise Textwiedergabe.[cite:15] |
-| Konsistente Serie über mehrere Assets | Konsistenz-orientierte Modelle wie Nano Banana Pro oder Flux.2 Pro in Magnific; in Kittl mit festem Stil und wenigen Variablen arbeiten | Magnific beschreibt diese Modelle als stark für Konsistenz und Referenztreue.[cite:15] |
-| Editorial, Case Header, kontrollierte Fotologik | Cinematic oder vergleichbare fotorealistische Modelle | Magnific beschreibt Cinematic als geeignet für studioartige, filmische Kompositionen.[cite:15] |
-| Designnahe Komposition, Poster, strukturierte Visuals | Recraft V4 Pro oder Kittl mit passendem Style-Preset | Recraft wird in Magnific als designorientiertes Modell geführt; Kittl empfiehlt zuerst Style und dann Modellwahl.[cite:15][cite:18][cite:19] |
-| Canva-Alltag, schnelle Bilder in Layout-Kontext | Magic Media oder Dream Lab mit passendem Style und Format; externe Modelle nur bei klarer Qualitätslücke | Canva positioniert seine Bildtools stark über Stil- und Formatwahl, nicht über tiefe Modellsteuerung.[cite:29][cite:30][cite:36] |
+| Current truth | Approved clean-source file | Can decide within its defined scope |
+| Draft evidence | Created but not approved as current | Can guide drafting, needs review |
+| Working memory | Prior chat, audit summary, memory, unverified note | Reconfirm or soften before public use |
+| Missing | No reliable source yet | Do not claim |
+| Archive | Historical or old material | Context only unless Mika reclassifies |
 
-### Kittl-Regel
+Rules:
 
-In Kittl wird zuerst über Style, Komposition und Designabsicht gearbeitet, nicht über Modellnamen allein. Kittl beschreibt die Bildgenerierung ausdrücklich als Prozess aus Prompt, Style, Modell und Settings, und Tutorials aus dem Kittl-Umfeld zeigen, dass Style-Presets oft der praktischere Einstieg sind als direkte Modellfixierung.[cite:18][cite:19][cite:22][cite:23]
+1. Current clean-source files override memory.
+2. Draft files can guide work, but cannot finalize public output alone.
+3. Historical material cannot decide facts.
+4. Missing information stays visible.
+5. If sources conflict, stop and flag the conflict.
 
-Für dieses Portfolio heißt das: Kittl zuerst einsetzen, wenn typografische, redaktionelle oder präsentationsnahe Visuals entstehen sollen. Nur wenn die Aufgabe technisch enger ist – etwa Texttreue, extreme Konsistenz oder spezielle Lichtlogik – wird die Modellwahl bewusst enger geführt.[cite:18][cite:19][cite:23]
+---
 
-### Magnific-Regel
+## Research and synthesis workflow
 
-Magnific eignet sich besser als Kittl, wenn die Modellwahl selbst Teil der Qualitätssteuerung ist. Die offiziellen Dokumentationen unterscheiden dort klar nach Bildgenerator-Modellen, Upscaler-Engines, Variationsmodi und Credits.[cite:15][cite:17]
+AI research is useful only when it produces usable judgment, not just more material.
 
-Für dieses Projekt ist Magnific deshalb kein „alles damit machen“-Tool, sondern ein gezieltes Werkzeug für drei Fälle: kontrollierte Modellwahl, selektive High-End-Variationen und punktuelle Veredelung bereits guter Assets. Es sollte nicht die erste Station jeder Bildidee sein.[cite:15][cite:17]
+A research output must separate:
 
-### Canva-Regel
+- facts
+- assumptions
+- source strength
+- conflicts
+- risks
+- open questions
+- recommendation
+- next action
 
-Canva ist stark, wenn das Bild direkt im Layout- oder Kommunikationskontext entsteht. Canva stellt die Bildgenerierung vor allem über Stil, Seitenverhältnis, Generator-App und anschließende Layout-Nutzung dar; es ist weniger ein tiefes Modellwahl-Tool als ein schnelles Design-System-Umfeld für Bildproduktion im Editor.[cite:29][cite:30][cite:36][cite:40]
+For larger research blocks, use a claim ledger.
 
-Für dieses Projekt heißt das: Canva eignet sich für schnelle Konzeptbilder, Kommunikationsgrafiken und Mockup-nahe Layoutkontexte. Wenn präzise Texttreue, Serienkonsistenz oder hochwertige Editorial-Bildwirkung entscheidend sind, sollte die Auswahl eher in Kittl oder Magnific stattfinden.[cite:29][cite:30][cite:36][cite:38]
+| Claim | Source | Confidence | Public-use status | Risk | Action |
+|---|---|---|---|---|---|
+| TBD | TBD | low / medium / high | use / soften / avoid | TBD | verify / ask Mika / remove |
 
-## Anti-Slop-Regeln
+Research is not complete until contradiction, uncertainty and missing proof are visible.
+
+---
+
+## Prompting standard
+
+Prompts should be specific, scoped to one task and designed for review.
+
+A strong project prompt includes:
+
+1. Task
+2. Context
+3. Source of truth
+4. Role or perspective
+5. Audience
+6. Constraints
+7. Examples or references, when useful
+8. Desired output format
+9. Acceptance criteria
+10. What must not change
+
+Use examples when style, structure or judgment needs to be transferred. Examples are especially useful for copy tone, QA format, case modules, handoff prompts and reusable workflows.
+
+Use output formatting instructions early. The required format should not be left implicit.
+
+For Figma, builder or implementation prompts, end with:
+
+> Do not change anything not mentioned in this prompt.
+
+---
+
+## Case-writing workflow
+
+Use this sequence for every case:
+
+1. Confirm that the case source exists.
+2. Separate confirmed facts from draft evidence, working memory and missing information.
+3. Define safe role wording.
+4. Define unsafe claims to avoid.
+5. Select visuals or screens only after asset review.
+6. Write short website copy from evidence.
+7. Run claim-control QA.
+8. Run visual and seniority QA.
+9. Keep unresolved questions visible.
+10. Move non-blocking improvements to a post-launch list.
+
+For Phase 1, cases do not need to be exhaustive. They need to be credible, visible and sendable.
+
+---
+
+## Copy workflow
+
+Website copy should be:
+
+- English unless Mika confirms otherwise
+- confident
+- direct
+- editorial
+- precise
+- evidence-based
+- free of inflated generic claims
+
+Every paragraph needs one job.
+
+Useful paragraph functions:
+
+- context
+- role
+- challenge
+- contribution
+- design decision
+- evidence
+- limitation
+- next proof point
+
+Avoid:
+
+- passionate
+- innovative
+- out-of-the-box
+- award-winning
+- proven impact
+- transformed
+- meaningful experiences
+- end-to-end ownership unless confirmed
+- vague seniority language
+- unsupported business outcomes
+- therapeutic, medical or technical claims without proof
+
+---
+
+## Visual exploration and asset production
+
+AI-generated or AI-edited visuals may support exploration, concept development, remastering or reconstruction.
+
+They must not be used as fake evidence of real client work.
+
+Before any visual is used publicly, classify it:
+
+| Label | Meaning |
+|---|---|
+| `Original` | Original project asset, usable only after permission and quality review |
+| `Remastered` | Existing material improved or adapted for presentation |
+| `Reconstructed` | Presentation asset rebuilt because original material is unavailable, unsafe or withheld |
+| `Anonymised` | Identifying or restricted details removed |
+| `Conceptual / Lab` | Speculative, self-initiated, educational or experimental work |
+| `Withheld` | Material exists but is not public because of rights, NDA, quality or claim risk |
+| `Needs permission` | Potentially usable, but rights/public-use status is not resolved |
+
+Visuals should be rejected if they show:
+
+- generic AI gloss
+- fake UI details
+- incorrect logos or brand assets
+- overused cinematic lighting
+- stock-like look
+- decorative filler
+- weak composition
+- incoherent typography
+- misleading campaign evidence
+- unlabelled reconstruction
+
+Visual AI output is reviewed in sets, not as isolated single images. Contact sheets reveal repetition, model house style and weak outliers.
+
+---
+
+## Tool-specific guidance
+
+Tool-specific guidance is advisory and needs periodic review. Tools, models, pricing, limits and capabilities change.
+
+Do not use this file as final proof that a tool can do something today.
+
+### General tool rule
+
+Choose the tool by task type, not by hype or habit.
+
+Ask first:
+
+1. Do we need research, writing, visual exploration, implementation or QA?
+2. Does the task touch final claims, final visuals, code or legal content?
+3. What is the smallest safe test?
+4. What must remain unchanged?
+5. What output can be reviewed quickly?
+
+### Model and image-tool rule
+
+Do not choose image tools by model name alone.
+
+Choose by need:
+
+| Need | Tool direction | Guardrail |
+|---|---|---|
+| Early visual direction | Fast exploration tool | Do not use as final evidence |
+| Editorial / typographic composition | Design-oriented image or layout tool | Check typography manually |
+| Consistent visual series | Tool with reference or style consistency support | Compare as a set |
+| Remastering | Image editing / upscale / retouch workflow | Preserve original intent |
+| Portfolio reconstruction | Controlled generation plus clear label | Must be disclosed as reconstructed/remastered |
+| Production UI | Figma / confirmed design-system workflow | AI must not invent components or tokens |
+
+Specific tool names may be added later only after Mika confirms their role for Phase 1.
+
+---
+
+## Vibe coding and implementation support
+
+Code support must be controlled and slice-based.
+
+Use AI for:
+
+- scoped component drafts
+- debugging
+- CSS/JS fixes
+- route or state issue analysis
+- accessibility checks
+- regression triage
+- implementation handoff prompts
+
+Do not let AI silently overwrite:
+
+- design decisions
+- content decisions
+- token logic
+- case claims
+- accessibility structure
+- routing logic
+- legal content
+
+Minimum implementation checks:
+
+- semantic HTML where applicable
+- keyboard-accessible interactions
+- readable focus states
+- responsive layout
+- no hidden content on mobile
+- no unexpected route changes
+- no new template/slop aesthetic
+- diff review before accepting changes
+
+---
+
+## Automation and agent workflow
+
+Agentic workflows may help with repetitive, low-ambiguity tasks, but they are high-risk when they touch sources, claims, live sites, files, emails or public publishing.
+
+Safe automation candidates:
+
+- file organisation proposals
+- recurring checklists
+- source comparison drafts
+- QA issue collection
+- summarising clearly bounded inputs
+- generating first-pass task queues
+
+High-risk automation candidates:
+
+- public publishing
+- deleting or moving project-critical files
+- editing source-of-truth files without review
+- sending messages or emails
+- changing calendar, accounts, permissions or external services
+- making legal, client, claim or launch decisions
+
+Automation rule:
+
+> AI may prepare. Mika approves before irreversible or public actions.
+
+---
+
+## QA and documentation
+
+QA is part of the workflow, not a final afterthought.
+
+AI may support QA by checking:
+
+- sendability
+- claim risk
+- content completeness
+- design integrity
+- mobile and desktop usability
+- template/slop risk
+- visible work proof
+- whether the page reads correctly for senior design decision-makers
+
+AI QA is not final approval.
+
+Document:
+
+- relevant prompts
+- source decisions
+- claim decisions
+- failed attempts
+- tool limits
+- corrections
+- accepted tradeoffs
+- post-launch tasks
+
+Documentation is not bureaucracy. It is part of the senior proof.
+
+---
+
+## Anti-slop rules
 
 ### Copy
 
-Kein generisches Portfolio-Vokabular ohne Beleg. Aussagen wie „passionate“, „innovative“, „meaningful experiences“ oder „from concept to execution“ werden markiert, nicht automatisch verwendet.[cite:19]
+No generic portfolio language without evidence.
 
-Jeder Absatz braucht genau einen Zweck. Stil darf die Beweislage nie künstlich verstärken.[cite:19]
+Replace vague claims with specific, source-backed statements.
 
 ### Visuals
 
-Jedes visuelle Element braucht eine Funktion. Generische SaaS-Karten, Builder-Hausästhetik, übernutzte Pills, Soft-Gradient-Heroes, unnötige Dividers und rein dekorative Motion gelten als Risikomuster.[cite:19]
+Every visual element needs a function.
 
-Visuals werden nie einzeln beurteilt, sondern mindestens in kleinen Sets verglichen. So werden Wiederholung, Modell-Hausstil und schwache Ausreißer sichtbar.[cite:19]
+Avoid:
+
+- generic SaaS cards
+- builder defaults
+- shadcn / Material UI defaults
+- neobrutalist default styling
+- overused pills
+- unnecessary dividers
+- soft startup gradients
+- decorative motion without purpose
+- fake complexity
 
 ### Claims
 
-Keine erfundenen KPIs, Rollen, Verantwortlichkeiten, Outcomes, Testimonials oder Produktfähigkeiten. Unklare Aussagen werden entweder belegt, abgeschwächt oder gestrichen.[cite:19]
+No invented KPIs, roles, responsibilities, outcomes, testimonials, tools or permissions.
 
-Wenn eine Tool-Behauptung nur aus Modellrecherche stammt, aber nicht im Projekt verifiziert ist, bleibt sie Watchlist oder Testkandidat – nicht finaler Methodenbestandteil.[cite:19]
+When a claim is weak, soften it, source it, label it or remove it.
 
-## Recovery-Protokoll
+---
 
-Wenn ein Ergebnis schlecht ist, wird nicht sofort alles umgeworfen. Erst wird das Symptom präzise beschrieben, dann die Fehlerklasse bestimmt, dann der kleinste prüfbare Test gewählt.[cite:19]
+## Recovery protocol
 
-Die Reihenfolge lautet: Freeze, Symptom beschreiben, Fehlerklasse bestimmen, Scope verkleinern, Test neu aufsetzen, nach zwei Schleifen Tool oder Methode wechseln. Das hält die Arbeit ruhig, nachvollziehbar und sendbar.[cite:19]
+When output is poor, do not immediately rebuild everything.
 
-## Qualitätsgates
+Use this sequence:
 
-Ein Ergebnis ist erst freigabefähig, wenn folgende Fragen sauber beantwortet sind:
+1. Freeze the current state.
+2. Describe the symptom precisely.
+3. Identify the failure class.
+4. Reduce the scope.
+5. Write a smaller test prompt.
+6. Run one correction.
+7. Review against acceptance criteria.
+8. After two failed correction loops, change method or tool.
 
-- Ist die Aussage oder Gestaltung auf aktuelle Projektquellen rückführbar?[cite:19]
-- Wurde nichts erfunden oder unnötig verstärkt?[cite:19]
-- Ist die Gestaltung klar, hierarchisch und frei von Template-Risiko?[cite:19]
-- Funktioniert das Ergebnis auch ohne Mockup-Inszenierung?[cite:19]
-- Ist die Tool-Wahl dokumentiert und war sie für den Zweck angemessen?[cite:15][cite:17][cite:19]
-- Wurde bei Bildtools das Modell nach Zweck statt nach Namen gewählt?[cite:15][cite:17][cite:18][cite:29][cite:30][cite:36]
+This protects the project from loop fatigue and tool drift.
 
-## Einsatz im Projekt
+---
 
-Für Phase 1 unterstützt diese Methode ein sendbares Senior-Portfolio mit realer Arbeit online. Sie soll weder neue Komplexität erzeugen noch ein AI-lastiges Markenbild nach außen aufbauen.[cite:19]
+## Handoff prompt structure
 
-Die Methode zeigt Seniorität nicht durch maximale Automatisierung, sondern durch Auswahl, Begrenzung, Kritik, Reparatur und dokumentierte Urteilsfähigkeit. Genau darin liegt ihr Wert für das Portfolio-Projekt.[cite:19]
+Use this structure when sending work to another tool:
+
+```md
+Task:
+
+Context:
+
+Current source of truth:
+
+Do use:
+
+Do not use:
+
+What must stay unchanged:
+
+Required output:
+
+Acceptance criteria:
+
+Do not change anything not mentioned in this prompt.
+```
+
+For code tasks, include file paths and expected behaviour.
+
+For visual tasks, include art-direction intent, hierarchy, constraints and what must be preserved.
+
+For copy tasks, include evidence boundaries and unsafe claims.
+
+---
+
+## Open questions before this method becomes current
+
+1. Which AI tools are approved for Phase 1 production support?
+2. Which tools are exploration-only?
+3. Which tools may touch final website copy?
+4. Which tools may touch final visuals?
+5. Which tool should be used for implementation?
+6. What counts as acceptable reconstruction for portfolio visuals?
+7. How should AI-assisted, remastered or reconstructed material be labelled on the website?
+8. Should an AI Practice page later document this method publicly?
+9. Which parts of this workflow are Phase 1 critical and which are post-launch?
+10. What is the final design-system source for visual decisions?
+
+---
+
+## Recommended next steps
+
+1. Mika reviews this draft method.
+2. Confirm which parts are approved for Phase 1.
+3. Keep all unapproved tool workflows as advisory only.
+4. Apply the method to Floom and CUPRA case-page drafting.
+5. Revisit this file after the design-system source is confirmed.
+6. Decide later whether this becomes public AI Practice content.
+7. Update `02_SOURCE_MAP.md` so `10_AI_WORKFLOW_METHOD.md` is listed as `draft / Method` instead of `pending`.
+
+---
+
+## Change log
+
+| Date | Change |
+|---|---|
+| 2026-07-10 | v0.1 — Created initial draft AI workflow method source |
+| 2026-07-10 | v0.2 — Cleaned status and source role, removed unresolved citation placeholders, reduced tool-specific claims, added method-only reference handling, prompt standard, automation guardrails and stronger anti-slop/recovery rules |
