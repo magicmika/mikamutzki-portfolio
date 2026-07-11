@@ -22,6 +22,12 @@
 - Defined zeroheight as a temporary trial-based publication prototype, not the final tool stack.
 - Created the Git-versioned Foundation V2 documentation structure.
 
+- Added Responsive Re-composition as a Candidate principle.
+- Defined five evaluation states: Compact, Medium, Standard, Wide and Ultrawide.
+- Defined Fluid, Bounded, Readable and Repositioned growth behaviours.
+- Confirmed platform neutrality: no current Foundation dependency on Framer, Lovable or another production platform.
+- Added LAY-01 as the active prerequisite inside APP-01 preparation.
+
 ## Next
 
 - Define controlled briefs for Home Hero, Floom Case Intro and Gallery Spread.
