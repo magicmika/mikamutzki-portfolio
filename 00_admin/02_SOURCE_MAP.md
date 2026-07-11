@@ -1,6 +1,6 @@
 # 02_SOURCE_MAP
 
-Version: 1.2
+Version: 1.3
 Status: current clean-source file
 Project: MIKAMUTZKI — FINAL PORTFOLIO
 
@@ -56,6 +56,13 @@ or assumptions from becoming project truth by accident.
 | 08_CASE_CUPRA.md | draft | Evidence | CUPRA case source | Document-backed/audit-backed CUPRA facts, evidence levels, role boundaries, AI-claim wording, unsafe claims to avoid, asset and permission risks | Final case-page copy, final visual selection, design decisions, public-use permission decisions | Created as draft evidence source; pending Mika approval to become current |
 | 09_GALLERY_INVENTORY.md | draft | Evidence | Gallery inventory placeholder | Potential candidates, current review status, asset-label framework, rights and permission risks, open Gallery tasks | Final Gallery concept, selected assets, public-use clearance, project narratives | Created as draft placeholder; pending asset review and Mika approval |
 | 10_AI_WORKFLOW_METHOD.md | draft | Method | AI workflow and prompting method | Draft rules for source governance, prompting, research, AI-assisted production, implementation support, QA and documentation | Project truth, design-system decisions, final tool stack, case claims, legal content, final publication decisions | Created as draft method source; pending Mika approval |
+| 05_design_system/11_FOUNDATION_V2_DECISION_LOG.md | current | Truth | Foundation decision history | Approved Foundation V2 decisions, rationale, rejected alternatives, revision conditions | Case facts, final token values without validation, implementation truth | Git-versioned decision authority; Mika approval required for Approved status |
+| 05_design_system/12_FOUNDATION_V2_PRINCIPLES.md | current | Truth | Current Foundation principles | Approved principles, candidate territory model, anti-principles, open design decisions | Unvalidated tokens, case claims, implementation status | Living current-state document |
+| 05_design_system/13_FOUNDATION_V2_TEST_LOG.md | current | Evidence | Foundation visual-test evidence | Test hypotheses, controlled variants, observations, accessibility findings, pass/fail status | Project truth by itself, final design approval | Visual decisions become current only through Decision Log |
+| 05_design_system/14_FOUNDATION_V2_CHANGELOG.md | current | Evidence | Foundation change history | Concise record of Foundation V2 changes and next steps | Design authority, case claims | Complements Git history |
+| 05_design_system/research/DEEP_RESEARCH_BRIEF_FOUNDATION_V2.md | current | Method | Research brief | Research scope, questions, quality bar and output requirements | Project decisions, final rules or values | Defines how the research was commissioned |
+| 05_design_system/research/FOUNDATION_V2_DEEP_RESEARCH_REPORT.md | current | Evidence | Research and discussion source | Referenced findings, candidate territories, candidate principles and test framework | Confirmed project truth, final tokens, components or visual direction | Recommendations require Mika confirmation and Decision Log entry |
+| Figma file `4P0Z0dlTmQx7ye9fRGe2Za` | current | Truth | Active Foundation V2 visual source | Current approved visual decisions, variables, styles, components and application tests when explicitly approved | Case facts, claims, workflow policy | Explorations and rejected frames remain evidence, not authority |
 | Existing Figma file `wr7dHBcQcp32CGRDc9deVp` | historical – not in use | Archive | Previous design and component context | May be inspected only for a specific asset or decision after Mika explicitly requests the review | Current design authority, design tokens, component status, page structure, production sequence, implementation truth | Not a basis for the clean restart; no automatic reuse or inheritance |
 | Old chats, old screenshots, old uploads, old exports, old prompts | historical – not in use | Archive | Historical context only | Nothing | Project direction, design truth, case facts, claims, QA rules, current decisions | Do not use unless Mika explicitly reclassifies a specific item |
 
@@ -82,3 +89,4 @@ or assumptions from becoming project truth by accident.
 | 2026-07-09 | v1.0 — Created clean source map |
 | 2026-07-09 | v1.1 — Status updated for 03, 04 (current), 05, 06 (draft); roles and boundaries filled in; "legal advice" corrected to "legal correctness" |
 | 2026-07-10 | v1.2 — Existing Figma file classified as `historical – not in use`; clean restart and explicit-review rule added |
+| 2026-07-11 | v1.3 — Foundation V2 governance documents, research sources and active Figma file registered |
