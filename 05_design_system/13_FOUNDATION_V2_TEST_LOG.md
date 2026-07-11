@@ -69,6 +69,21 @@ Evidence log for hypotheses, controlled variants, findings, accessibility checks
 - **Limitations:** Test preview used a compressed import. The exact colour field and final placement are not approved.
 - **Learning:** Frontal or minimally dimensional device objects are a viable candidate for selected hero moments.
 
+## LAY-01 — Responsive Composition Architecture
+
+- **Status:** CANDIDATE / BRIEF APPROVED FOR TESTING
+- **Hypothesis:** One semantic and visual system can produce five distinct spatial compositions without treating Standard desktop as the universal master.
+- **Must prove:** Compact feels intentionally sequenced; Medium enables transition; Standard supports full composition; Wide assigns function to additional width; Ultrawide activates the full stage while preserving readable text.
+- **Controlled variables:** same semantic content, positioning hierarchy, navigation purpose, Constructive Poster territory and accessibility obligations.
+- **Variables allowed to transform:** position, visual order, type scale, line break, information simultaneity, navigation form, media scale/crop, whitespace and statement position.
+- **Test canvases:** Compact `390 × 844`; Medium `768 × 1024`; Standard `1440 × 960`; Wide `1920 × 1080`; Ultrawide `3440 × 1440`.
+- **Important:** These canvases are evaluation surfaces, not approved implementation breakpoints.
+- **Growth behaviours:** `Fluid` for fields and atmospheric media; `Bounded` for headlines, devices and navigation; `Readable` for body copy and captions; `Repositioned` for indices, status and secondary elements.
+- **Pass:** recognisable identity across all states; Compact is not stacked desktop; Ultrawide uses the stage; reading widths remain controlled; additional width gains function; semantic sequence remains intact.
+- **Fail:** Standard becomes the only correct version; every element scales proportionally; Ultrawide centres a narrow site; Compact loses plakative character; accessibility or semantic continuity breaks.
+- **Next gate:** Specify and test `APP-01 / H3 — Field Leads` as five related compositions.
+- **Figma link/node:** Not created yet.
+
 ## Required validation tests
 
 ### APP-01 — Home Hero

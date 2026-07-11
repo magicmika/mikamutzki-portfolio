@@ -79,3 +79,16 @@ Chronological record of questions, options, decisions, rationale, consequences a
 - **Permanent record:** Markdown documents and Git history.
 - **Visual evidence:** Figma.
 - **Publication prototype:** zeroheight.
+
+
+## 2026-07-11 — Responsive composition approach
+
+- **Status:** CANDIDATE PRINCIPLE
+- **Question:** Should Foundation V2 be designed from a single desktop master and scaled through conventional breakpoints?
+- **Decision:** No. Responsive behaviour will be explored as re-composition: one semantic and visual system with distinct spatial expressions for Compact, Medium, Standard, Wide and Ultrawide contexts.
+- **Rationale:** Each device class should use its available space intentionally. Compact must not be a stacked desktop, and Ultrawide must not display a narrow website floating in the centre.
+- **Constant across states:** semantic priority, primary message, access to work, Constructive Poster attitude, information hierarchy, accessibility and controlled statement moments.
+- **May transform:** position, sequence, scale, line breaks, simultaneous information density, navigation form, media size, crop, whitespace and statement placement.
+- **Platform status:** implementation platform, build tool and technical breakpoints remain open. Lovable is only a possible MVP option; no platform informs Foundation decisions at this stage.
+- **Validation required:** LAY-01 and the Home Hero application family across five test canvases.
+- **Revisit when:** the model creates unnecessary complexity, weakens semantic continuity or cannot be implemented accessibly.

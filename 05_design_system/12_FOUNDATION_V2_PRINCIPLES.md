@@ -73,6 +73,28 @@ Provides pacing, quiet passages, long-form readability, captions, evidence and n
 - No image treatment that destroys evidence.
 - No AI-polished visual language without a traceable design decision.
 
+## Responsive composition — CANDIDATE
+
+> **One system, multiple spatial expressions.**
+
+- Responsive behaviour is re-composition, not proportional scaling.
+- Compact prioritises sequence and vertical dramaturgy.
+- Medium introduces controlled simultaneity and asymmetry.
+- Standard supports the full plakative composition but is not the universal master.
+- Wide uses additional horizontal space to create new relationships.
+- Ultrawide treats the full viewport as an active stage instead of centring a narrow site.
+- Composition surfaces and media may use the viewport; long-form reading widths remain bounded.
+- Elements may behave as `Fluid`, `Bounded`, `Readable` or `Repositioned`.
+- Exact breakpoints, columns, margins and scaling functions remain open until validation.
+
+## Platform neutrality — APPROVED
+
+- Foundation V2 is platform-independent.
+- Figma is the current visual test and design source.
+- Build tool, website platform and production workflow remain open.
+- Lovable may later be evaluated as a fast MVP option, but is not a Foundation input.
+- zeroheight remains a temporary documentation prototype, not implementation infrastructure.
+
 ## Open decisions
 
 - Final visual validation of the territory model.
