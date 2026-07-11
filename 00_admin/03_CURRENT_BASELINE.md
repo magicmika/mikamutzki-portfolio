@@ -1,6 +1,6 @@
 # 03_CURRENT_BASELINE
 
-Version: 1.1  
+Version: 1.3  
 Status: current clean-source file  
 Project: MIKAMUTZKI — FINAL PORTFOLIO
 
@@ -27,18 +27,24 @@ The goal is to avoid pretending that the project already has confirmed foundatio
 - Existing Figma tokens, components, layouts, page structures, and production decisions must not be inherited automatically into the clean restart.
 - Individual assets or decisions from the existing Figma file may be reviewed only for a concrete task and require Mika's explicit approval before reuse.
 - Typography: Switzer (currently the only typeface in use; a second typeface may be added later as a deliberate, separate decision).
+- The active clean Foundation V2 Figma file is `4P0Z0dlTmQx7ye9fRGe2Za`.
+- Foundation V2 research, principles, decisions, tests and changelog are documented in `05_design_system/`.
+- Creative hierarchy confirmed: Swiss Design creates structure; Bauhaus shapes the plakative stage; Neobrutalism provides selective statement.
+- Perception priority confirmed: visual authorship and compositional energy first; precision and system competence second.
+- Constructive Poster is the candidate lead territory; Signal Grid is the structural corrective; Hard Cut Editorial is the storytelling and long-form corrective.
+- Contextual-dominance principle confirmed: the system may lead the experience, while work must lead evidence.
+- zeroheight is a temporary 14-day documentation and case-study prototype, not the final tool stack or source of truth.
 
 ## Not confirmed yet
 
 - Design values.
-- New clean design-system baseline and future Figma authority.
 - Colors.
 - Radius.
 - Grid.
 - Spacing.
 - Components.
 - Interaction states.
-- Visual direction for the clean MVP.
+- Final validation of the candidate visual territory across Home Hero, Floom Case Intro and Gallery Spread.
 - Build tool.
 - Website platform.
 - Production workflow.
@@ -82,3 +88,4 @@ Do not turn assumptions into current project truth.
 | 2026-07-09 | Created minimal clean baseline v1.0 |
 | 2026-07-10 | v1.1 — Existing Figma file classified as historical context; clean-restart and explicit-reuse rules added |
 | 2026-07-10 | v1.2 — Typography confirmed as Switzer (sole typeface) |
+| 2026-07-11 | v1.3 — Active Foundation V2 source, governance documents, candidate territory roles and zeroheight role recorded |
